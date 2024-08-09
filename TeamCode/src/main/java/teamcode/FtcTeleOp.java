@@ -83,7 +83,7 @@ public class FtcTeleOp extends FtcOpMode
         //
         driverGamepad = new FtcGamepad("DriverGamepad", gamepad1, this::driverButtonEvent);
         operatorGamepad = new FtcGamepad("OperatorGamepad", gamepad2, this::operatorButtonEvent);
-        driverGamepad.setYInverted(true);
+        driverGamepad.setYInverted(false);
         operatorGamepad.setYInverted(true);
         setDriveOrientation(TrcDriveBase.DriveOrientation.ROBOT);
     }   //robotInit

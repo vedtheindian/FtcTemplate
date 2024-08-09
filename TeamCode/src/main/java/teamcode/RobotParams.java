@@ -63,14 +63,14 @@ public class RobotParams
         public static boolean useBatteryMonitor = false;
         public static boolean doStatusUpdate = !inCompetition;
         // Vision
-        public static boolean useWebCam = true;
+        public static boolean useWebCam = false;
         public static boolean hasWebCam2 = false;
         public static boolean useBuiltinCamBack = false;
         public static boolean tuneColorBlobVision = false;
         public static boolean useAprilTagVision = false;
         public static boolean useColorBlobVision = false;
         public static boolean useTensorFlowVision = false;
-        public static boolean showVisionView = !inCompetition;
+        public static boolean showVisionView = false;
         public static boolean showVisionStat = false;
         // Drive Base
         public static boolean useExternalOdometry = false;
